@@ -1577,7 +1577,7 @@
 	@media screen and (max-width: 480px) {
 
 		.row > * {
-			padding: 20px 0 0 20px;
+			padding: 10px 0 0 10px;
 		}
 
 		.row {
@@ -1585,7 +1585,7 @@
 		}
 
 		.row.uniform > * {
-			padding: 20px 0 0 20px;
+			padding: 40px 0 0 40px;
 		}
 
 		.row.uniform {
@@ -2040,11 +2040,13 @@
 			}
 
 		.image.featured {
+			
 			display: block;
 			margin: 0 0 2em 0;
 		}
 
 			.image.featured img {
+
 				display: block;
 				width: 100%;
 			}
@@ -3109,7 +3111,7 @@
 		/* Box */
 
 			.box.highlight {
-				padding-left: calc(4em + 30px);
+				padding-left: calc(2em + 30px);
 			}
 
 			.box.post .inner {
